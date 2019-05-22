@@ -39,7 +39,7 @@ public class GridBagLayoutDemo
         constraints.gridwidth=1;
         makeButton("7",frame,gbaglayout,constraints);    //调用方法，添加按钮组件
         makeButton("8",frame,gbaglayout,constraints);
-        constraints.gridwidth=GridBagConstraints.REMAINDER;    //结束行
+        //constraints.gridwidth=GridBagConstraints.REMAINDER;    //结束行
         makeButton("9",frame,gbaglayout,constraints);
         constraints.gridwidth=1;    //重新设置gridwidth的值
 
@@ -51,7 +51,7 @@ public class GridBagLayoutDemo
 
         makeButton("1",frame,gbaglayout,constraints);
         makeButton("2",frame,gbaglayout,constraints);
-        constraints.gridwidth=GridBagConstraints.REMAINDER;
+      //  constraints.gridwidth=GridBagConstraints.REMAINDER;
         makeButton("3",frame,gbaglayout,constraints);
         constraints.gridwidth=1;
 
